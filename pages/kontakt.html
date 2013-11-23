@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <title>Kontakt</title>
         
     </head>
     <body>
@@ -9,9 +10,9 @@
         <p><a href="mailto:louise229@hotmail.com">Maila mig</a></p>
         <p><a href="../index.html">Gå tillbaka till startsidan</a></p>
   
-   <form action="kontakt.html" method="post">
+   <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
        
-   </form>
+   
    <fieldset>
    <legend>Fråga</legend>
   
@@ -26,10 +27,10 @@
          <option value="Laboration2">Laboration2</option>
    </select><br>
    
-   <label>Rubrik : </label><input type="text"></input>
+   <label>Rubrik : </label><input type="text" name="rubrik" />
    <br>
   
-  <label>Fråga :</label> <textarea rows="5" cols="30">jag sitter här och testar formuläret
+  <label>Fråga :</label> <textarea rows="5" cols="30" name="fråga">jag sitter här och testar formuläret
        
    </textarea>
       <br>  
@@ -37,12 +38,12 @@
      
       <fieldset>
           <legend> Information om dig </legend>
-            <label>Kontakta mig via mail</label> <input type="checkbox" name="g1{}"value="name"
+            <label>Kontakta mig via mail</label><input type="checkbox" name="email" value="name">
      </fieldset>
        <br>
         <button type="submit">Skicka</button>
           
-        
+    </form>    
     </body>
     
  
