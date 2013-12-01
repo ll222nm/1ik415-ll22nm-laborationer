@@ -26,10 +26,26 @@ body{
 	max-width: 100px;
 	margin: 0;
 	color:white;
-	#a:link{color: Blue;}
-
-	# li{display: inline; list-style-type: none;}
+	
 }
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: blue;
+	
+}
+
+
+#navigation a
+{
+display:block;
+width:90px;
+background-color:purple;
+}
+
 
 #content {
 	float:right;
