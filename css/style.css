@@ -16,8 +16,10 @@ body{
 	
 }
 
-#header{max-width:960px;
-
+#header{
+	max-width:960px;
+	background-image:url("header.jpg");
+	height:300px;
 	
 }
 
@@ -27,6 +29,10 @@ body{
 	margin: 0;
 	color:white;
 	
+}
+#navigation ul
+{
+	list-style-type:none;
 }
 
 a:link{
@@ -57,6 +63,7 @@ background-color:purple;
 	
 
 
+
 #content {
 	float:right;
 	width: 820px;
@@ -70,9 +77,24 @@ background-color:purple;
 h1
 {
 text-shadow: 5px 5px 5px #C0C0C0;
+font-family:"Arial Black";
+
 }
 
-
+h2
+{
+	background-image:url("bloggikon.jpg");
+	background-repeat: no-repeat;
+	background-size:30px 30px;
+	padding-left:35px;
+}
+.right{
+	float:right
+	
+}
+.left{
+	float:left
+}
 
 
 #footer{
