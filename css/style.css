@@ -81,7 +81,7 @@ font-family:"Arial Black";
 
 }
 
-h2
+#blogg h2
 {
 	background-image:url("bloggikon.jpg");
 	background-repeat: no-repeat;
@@ -95,6 +95,7 @@ h2
 .left{
 	float:left
 }
+
 
 
 #footer{
