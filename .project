@@ -11,6 +11,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>css/background.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Desktop/background.jpg</locationURI>
+		</link>
+		<link>
 			<name>pics/header.jpg</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Desktop/header.jpg</locationURI>

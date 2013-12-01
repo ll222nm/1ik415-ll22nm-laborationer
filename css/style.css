@@ -1,11 +1,14 @@
 body{
-	background-color: black;
-	color: white;
+	background-color:black;
+	color:white;
 }
 
 #container{
 	max-width: 960px;
 	margin:auto;
+	
+	background-image:url("background.jpg");
+	
 }
 
 #header{max-width:960px;
@@ -17,7 +20,9 @@ body{
 	float:left;
 	max-width: 100px;
 	margin: 0
+	color:white;
 }
+
 #content {
 float:right;
 width: 820px;
@@ -28,7 +33,7 @@ min-height: 500px
 
 h1
 {
-text-shadow: 5px 5px 5px #FF0000;
+text-shadow: 5px 5px 5px #C0C0C0;
 }
 
 
