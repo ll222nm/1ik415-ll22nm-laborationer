@@ -9,16 +9,4 @@
 	<natures>
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>css/background1.jpg</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Desktop/background1.jpg</locationURI>
-		</link>
-		<link>
-			<name>pics/header.jpg</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/Desktop/header.jpg</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
