@@ -59,9 +59,12 @@ background-color:purple;
 
 #navigation a:hover{
 	background-color:blue;
+	
 }
 	
-
+#navigation  a.activ{
+	color: white;
+}
 
 
 #content {

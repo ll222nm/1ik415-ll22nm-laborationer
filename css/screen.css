@@ -1,0 +1,11 @@
+p{
+	color:red;
+}
+
+#content {
+	float:left
+}
+@media print
+p{
+	color: black;
+}

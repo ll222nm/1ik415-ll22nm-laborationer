@@ -1,0 +1,47 @@
+ a[href]:after {
+	content:  "("attr(href)")";
+}
+
+#header {
+	display: none;
+}
+
+
+#navigation{
+	display:none;
+}
+
+#container{
+	max-width:600px;
+	margin:auto;
+}
+
+#content {
+	float:right;
+	width: 400px;
+	min-height: 200px;
+	
+}
+
+
+#blogg h2
+{
+	background-image:url("bloggikon.jpg");
+	background-repeat: no-repeat;
+	background-size:15px 15px;
+	padding-left:10px;
+}
+
+img{
+	width: 400px;
+}
+
+
+#footer{
+	width:600px;
+	float: right;
+	text-align:right;
+
+	color: white;
+	
+}
