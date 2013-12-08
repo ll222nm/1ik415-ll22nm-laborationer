@@ -61,18 +61,20 @@ function test4(tal) {
 // returnera längden på variablen text som kommer in som parameter. Variablen är av datatypen string
 function test5(text) {
 	
-	// Din kod skrivs här
+ return text.length;
+ // jag retunerade längden på variabeln.
 	
 }
 
 
+
 /*
-* TEST 6
+* TEST 6 
 */
 // Returnera den näst sista bokstaven i textsträngen som kommer in i parametern text
 function test6(text) {
 	
-	// Din kod skrivs här
+	return text.charAt(text.length -2);
 	
 }
 

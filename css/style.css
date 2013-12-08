@@ -26,10 +26,54 @@ body{
 #navigation{
 	float:left;
 	max-width: 100px;
-	margin: 0;
+	margin-left: -25px;
 	color:white;
 	
 }
+
+#navigation .menu_start:hover{
+	background:blue url("../pics/sprite.png") 0 0;
+	background-repeat:no-repeat;
+	
+}
+#navigation .menu_start{
+	background:purple url("../pics/sprite.png") 0 -48px;
+	background-repeat:no-repeat;
+	
+}
+
+#navigation .menu_laborationer:hover{
+	background:blue url("../pics/sprite.png") 0 -96px;
+	background-repeat:no-repeat;
+}
+
+#navigation .menu_laborationer{
+	background:purple url("../pics/sprite.png") 0 -144px;
+	background-repeat:no-repeat;
+}
+
+#navigation .menu_presentationer:hover{
+	background:blue url("../pics/sprite.png") 0 -192px;
+	background-repeat:no-repeat;
+}
+
+#navigation .menu_presentationer{
+	background:purple url("../pics/sprite.png") 0 -240px;
+	background-repeat:no-repeat;
+}
+
+
+#navigation .menu_kontakt:hover{
+	background:blue url("../pics/sprite.png") 0 -288px;
+	background-repeat:no-repeat;
+}
+
+#navigation .menu_kontakt{
+	background:purple url("../pics/sprite.png") 0 -336px;
+	background-repeat:no-repeat;
+}
+
+
 #navigation ul
 {
 	list-style-type:none;
@@ -55,6 +99,7 @@ a:hover{
 display:block;
 width:90px;
 background-color:purple;
+padding-left:25px;
 }
 
 #navigation a:hover{
