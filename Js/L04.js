@@ -20,9 +20,11 @@ function test1() {
 // Skapa två variabler och tilldela dessa de numeriska värdena 2.5 och 8. 
 // Multiplicera sedan de två variablerna, returnera produkten
 function test2() {
-	var tal =2.5*8;
-	return tal;
-	// jag har skapat två variabler och sedan multipliserat de numerska värderna med varandra.
+	var tal1 = 2.5;
+	var tal2 =8
+	var resultat=2.5*8;
+	return resultat;
+	// jag har skapat två variabler och sedan multipliserat de numerska värderna med varandra och retunerat resultat.
 
 }
 
@@ -75,7 +77,7 @@ function test5(text) {
 function test6(text) {
 	
 	return text.charAt(text.length -2);
-	
+	// Jag retunerade näst sista bokstaven genom att skriva -2. Därför att då går jag tillbaka tvåsteg och hamnar då på den näst sista bokstaven "x".
 }
 
 
@@ -89,9 +91,11 @@ function test6(text) {
 function test7(firstname, surname) {
 	
 
-	
+var namn = surname + ", "+firstname ;
+return namn; 
 }
 
+//  
 
 /*
 * TEST 8
@@ -103,19 +107,30 @@ function test7(firstname, surname) {
 // Ett tips kan vara att studera strängfunktionera indexOf och substr
 //(se länktips i handledningen)
 function test8(words) {
+	var number = words.indexOf(" ");
+	var word = words.substr(number + 1);
 	
-	// Din kod skrivs här
+	return word;
+
 }
 
 /*
-* TEST 9
+* TEST 9http://orion.lnu.se/pub/education/course/1ME402/ht13/rat%20base.jpeg
 */
 // Om numret i parametern number är större eller lika med 100 ska en boolean true returneras
 // annars ska en boolean false resturneras
 function test9(number) {
+	if (number>= 100)
+	{
+		return true;
+	}
+	else
 	
-	// Din kod skrivs här
+{return false;}
+
 }
+
+// Först skriver jag if för att ta reda på om det som parantesen är san, då skrier jag return true.Om det inte är sant så skriver jag else och sedan return false.
 
 /*
 * TEST 10
@@ -127,8 +142,20 @@ function test9(number) {
 //(se länktips i handledningen)
 
 function test10(epost, namn) {
-	
-	// Din kod skrivs här
+
+
+if(epost.length<1||namn.length<1){
+return	"Du har glömt att ange namn eller e-post";
+}
+
+else if(epost.indexOf("@")<0){
+	return "Ange en e-postadress";
+}
+
+else{
+	return "Ditt meddelande skickas";
+}
+
 }
 
 /*
@@ -140,8 +167,11 @@ function test10(epost, namn) {
 // ut det mittersta indexet i arrayen
 //(se länktips i handledningen)
 function test11(arr) {
-	
-	// Din kod skrivs här
+	var middle=arr.length;
+	middle=middle/2;
+	middle-=1;
+	middle=Math.round(middle);
+	return arr[middle];
 }
 
 
@@ -153,9 +183,12 @@ function test11(arr) {
 // Medelvärdet är summan av alla tal i arrayen delat med antalet tal i arrayen
 // Använd en for-loop för att lösa problemet
 function test12(arr) {
-	
-	// Din kod skrivs här
-	
+	var summa=0;
+	var length=arr.length;
+	for(var i=0;i<length;i++){
+	summa+=arr[i];
+	}
+	return summa/length;
 }
 
 
