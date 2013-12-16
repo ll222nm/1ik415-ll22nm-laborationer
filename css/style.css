@@ -118,7 +118,13 @@ padding-left:25px;
 	min-height: 500px;
 	
 
-
+}
+	
+.hide {
+visibility: hidden;
+}
+.show{
+	visibility:visible;
 }
 
 
