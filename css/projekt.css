@@ -1,6 +1,5 @@
 body{
 	background-color:black;
-	background-image:url("background1.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 
@@ -93,11 +92,6 @@ a:hover{
 	
 
 
-#valuta{
-	background-image:dollar.jpg;
-	color: white;
-}
-
 
 #navigation a
 {
@@ -122,18 +116,6 @@ padding-left:25px;
 	width: 820px;
 	min-height: 500px;
 	
-
-}
-
-#calculate_button{
-	background-color:purple ;
-	width: 100px;
-	color: white;
-}
-#valuta{
-	background-color:black;
-	width:380px;
-	margin: auto;
 
 }
 	
@@ -178,6 +160,4 @@ font-family:"Arial Black";
 	
 }
 
-#button{
-	float: right;
-}
+
